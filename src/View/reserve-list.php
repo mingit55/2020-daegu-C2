@@ -97,7 +97,10 @@
                             <span class="fx-n2 text-muted">만남 시간</span>
                             <span class="ml-2 fx-n1"><?= $reserve->rtime ?></span>
                         </div>
-                        <div class="text-line"><?= enc($reserve->content) ?></div>
+                        <div class="mb-2">
+                            <span class="fx-n2 text-muted">작가명</span>
+                            <span class="ml-2 fx-n1"><?= $reserve->writer_name ?></span>
+                        </div>
                     </div>
                 </div>
             </div>
